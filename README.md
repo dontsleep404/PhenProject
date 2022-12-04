@@ -1,0 +1,25 @@
+User
+    UserID
+    Username
+    Password
+    Email
+Workspace
+    WorkspaceID
+    WorkspaceName
+Member
+    UserID
+    WorkspaceID
+GroupItem
+    GroupItemID
+    WorkspaceID
+    GroupItemName
+Item
+    ItemID
+    GroupItemID
+    Type
+    Data
+    Deadline
+    Status
+Type
+    TypeID
+    Type

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/Quicksand.otf);
+}
+@font-face {
+    font-family: "Anurati";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/Anurati.otf);
+}
+@font-face {
+    font-family: "Aquatico";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/Aquatico.otf);
+}
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    transition: all .07s ease-out;
+    user-select: none;
+}
+body{
+    overflow: hidden;
+}
+#myVideo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 14rem;
+}
+.middle{
+    flex: 1 1 auto;
+}
+.bottom{
+    height: 8rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    width: 40%;
+    //height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text div{
+    color: #1a2e42;
+}
+.text1{
+    font-family: Anurati;
+    font-size: 5rem;
+}
+.text2{
+    font-family: Quicksand;
+    font-size: 1rem;
+}
+.bar{
+    background: #1a2e42;
+    height: .2rem;
+    margin-top: 1rem;
+}
+.music{
+    height: 6rem;
+}
